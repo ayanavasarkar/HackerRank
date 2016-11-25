@@ -2,6 +2,8 @@
 Given an integer, N, traverse its digits (1,2,...,n) and determine how many digits evenly divide N 
 (i.e.: count the number of times N divided by each digit i has a remainder of 0 ).
 Print the number of evenly divisible digits. 
+Example-- 1012 is the number. Digits are 1,0,1,2. division of 1012 by 1,1,2 yield 0, 
+thus total 3 digits of the number can divide it without leaving a remainder. Division by 0 not possible.
 */
 
 import java.io.*;
